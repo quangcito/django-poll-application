@@ -21,4 +21,12 @@ def results(request, question_id):
     return HttpResponse(response % question_id)
 
 def vote(request, question_id):
-    return HttpResponse("You're voting on question %s." % question_id)
+#     question = get_object_or_404(Question, pk=question_id)
+#     try:
+#         selected_choice = question.cho
+#     except (KeyError, Choice.DoesNotExist):
+#         # Redisplay the question voting form.
+#         return render(
+
+#         )
+    return
